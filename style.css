@@ -1,0 +1,481 @@
+@font-face {
+  font-family: "Montserrat Regular";
+  src: url("../fonts/Montserrat-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat SemiBold";
+  src: url("../fonts/Montserrat-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat Bold";
+  src: url("../fonts/Montserrat-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat Medium";
+  src: url("../fonts/Montserrat-Medium.ttf") format("truetype");
+}
+
+body {
+  background: #e9edf3;
+  font-family: "Montserrat Regular";
+}
+
+.font-bold{
+  font-family: "Montserrat Bold";
+}
+
+button {
+  font-size: 12px !important;
+  font-family: "Montserrat SemiBold" !important;
+}
+
+h2 {
+  font-family: "Montserrat SemiBold";
+  font-size: 16px;
+  line-height: 19.5px;
+  margin-bottom: 25px;
+}
+
+h3 {
+  font-family: "Montserrat SemiBold";
+  font-size: 16px;
+  margin-bottom: 19.5px;
+}
+h5{
+    color: #898989;
+    font-size: 14px;
+    line-height: 17px;
+}
+
+.navbar {
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+nav {
+  font-family: "Montserrat Bold" !important;
+}
+.text-20 {
+  font-family: "Montserrat Medium";
+  font-size: 12px;
+  line-height: 15px;
+}
+.text-22 {
+  font-family: "Montserrat SemiBold";
+  font-size: 12px;
+  line-height: 15px;
+}
+.text-32 {
+  font-family: "Montserrat SemiBold";
+  font-size: 12px;
+  line-height: 15px;
+}
+.text-38 {
+    font-family: "Montserrat SemiBold";
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 5px;
+  }
+
+  
+.btn-dark {
+  background: #111212;
+  border-radius: 10px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 18px;
+  padding-right: 18px;
+  line-height: 17px;
+}
+
+.btn-miner{
+  font-size: 14px !important;
+}
+
+.btn-dark-miner {
+  background: #111212;
+  color:white;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 22px;
+  padding-right: 22px;
+  line-height: 17px;
+}
+
+
+
+.btn-dark:hover {
+  background: none;
+  border-radius: 10px;
+  color: #111212;
+}
+
+.btn-white{
+    background: #FFFFFF;
+    border-radius: 10px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 18px;
+    padding-right: 18px;
+    line-height: 17px;
+}
+
+.btn-white:hover {
+    background: none;
+    border-radius: 10px;
+    color: #FFFFFF;
+    border: 1px solid white;
+  }
+
+.btn-outline-dark {
+  padding-top: 19px;
+  padding-bottom: 19px;
+  line-height: 22px;
+  padding-left: 35px;
+  padding-right: 35px;
+  border: 1px solid #111212;
+}
+
+.btn-outline-dark:hover {
+  background: #111212;
+}
+
+
+
+.white-box {
+  border-radius: 30px;
+  background: #fcfbf8;
+  box-shadow: 1px 10px 25px 5px #0000000a;
+  padding: 32px;
+  margin-bottom: 10px;
+  margin-left: 12px;
+  width: calc(100% - 20px);
+}
+
+
+.steps .img-fluid{
+  width:100px;
+}
+
+
+.black-box{
+    background: #111212;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    color: white;
+    font-size: 14px !important;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.small-white-box {
+  border-radius: 30px;
+  background: #fcfbf8;
+  box-shadow: 1px 10px 25px 5px #0000000a;
+  padding: 25px;
+  margin-bottom: 40px;
+}
+
+.slide-margin {
+  padding-left: 51px;
+}
+.cloud-currency {
+  padding-top: 15px;
+  padding-bottom: 27px;
+}
+.font-bold {
+  font-family: "Montserrat Bold";
+}
+
+.border {
+  width: 3px;
+  border: 3px solid #244475;
+}
+
+footer .nav-link{
+    color:white;
+}
+.footer-logo{
+    padding-right: 75px;
+}
+
+
+.navbar-nav .nav-link {
+    padding-right: 7px !important;
+    padding-left: 7px !important;
+    font-size: 13px;
+}
+
+.navbar-brand {
+    padding: 0 !important;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#console{
+  margin: 0;
+  padding: 5vh 5vw;
+  background: black;
+  overflow:hidden;
+  min-height: 500px;
+  height: calc(80% - 53px);
+
+}
+
+#console p {
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  color: #3ED1D3;
+  text-shadow: 0px 0px 10px #3ED1D3;
+}
+
+.navbar-brand img{
+  height: 20px;
+}
+
+.stat-block .col-sm-12:nth-child(2) .icon-stat {
+  border-top: 3px solid #244475;
+  padding-top: 17px;
+}
+.stat-block .col-sm-12:nth-child(2){
+  border-bottom: 3px solid #244475;
+  margin-bottom: 17px;
+}
+
+.container .img-fluid{
+  max-width: 230px!important;
+  max-height: 230px!important;
+}
+.cloud-currency{
+  width: 78px!important;
+}
+.icon-stat img{
+  max-width: 100px;
+}
+
+.stat-block .row.d-flex{
+  margin: 40px;
+}
+.steps .row.d-flex{
+  margin: 0;
+}
+.white-box .col{
+  text-align: center;
+}
+
+.steps .white-box{
+  padding: 10px 5px;
+}
+
+.steps{
+  padding: 20px 0px !important;
+}
+
+.justify-center{
+  justify-content: center;
+}
+
+.text-center{
+  text-align: center;
+}
+
+@media (min-width: 1200px) {
+
+  .text-center{
+    text-align: inherit;
+  }
+
+  .justify-center{
+    justify-content: inherit;
+  }
+
+  #console{
+   height: auto;
+  }
+
+  .steps{
+      min-height: 750px;
+      height: calc(100vh - 53px);
+    
+  }
+  
+
+  .steps .white-box{
+    padding: 32px;
+  }
+
+  .steps .img-fluid{
+    width: auto;
+  }
+
+  .white-box .col{
+    text-align: none;
+  }
+  
+
+  .stat-block .row.d-flex{
+    margin: 0px;
+  }
+  
+
+  .icon-stat img{
+    max-width: none;
+  }
+  
+
+  .navbar-nav .nav-link {
+    padding-right: 35px !important;
+    padding-left: 35px !important;
+    font-size: 18px;
+}
+
+  .btn-dark {
+    background: #111212;
+    border-radius: 10px;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    padding-left: 35px;
+    padding-right: 35px;
+    line-height: 22px;
+  }
+  
+  .btn-dark:hover {
+    background: none;
+    border-radius: 10px;
+    color: #111212;
+  }
+  
+  .btn-white{
+      background: #FFFFFF;
+      border-radius: 10px;
+      padding-top: 19px;
+      padding-bottom: 19px;
+      padding-left: 35px;
+      padding-right: 35px;
+      line-height: 22px;
+  }
+
+  .cloud-currency {
+    padding-top: 24px;
+    padding-bottom: 56px;
+  }
+
+  .cloud-currency{
+    width: auto!important;
+  }
+
+  .white-box {
+    border-radius: 30px;
+    background: #fcfbf8;
+    box-shadow: 1px 10px 25px 5px #0000000a;
+    padding: 32px;
+    margin-bottom: 53px;
+    margin-left:auto;
+    margin-right: auto;
+    width: inherit;
+  }
+
+.img-fluid{
+    max-width: none!important;
+    max-height: none!important;
+  }
+
+  .container .img-fluid{
+    max-width: none!important;
+    max-height: none!important;
+  }
+
+  .cloud-currency{
+    width: none!important;
+  }
+
+  .navbar-brand img{
+    height: auto;
+  }
+
+  .stat-block .col-md-4:nth-child(2) .icon-stat {
+    border-top:none;
+    border-left: 3px solid #244475;
+    border-right: 3px solid #244475;
+    padding-top: 0;
+  }
+
+  .stat-block .col-sm-12:nth-child(2){
+    border-bottom: none;
+    padding-top: 0;
+  }
+
+  button {
+    font-size: 16px !important;
+    font-family: "Montserrat SemiBold" !important;
+  }
+  
+  h2 {
+    font-family: "Montserrat SemiBold";
+    font-size: 48px;
+    margin-bottom: 25px;
+    line-height: 55px;
+  }
+  
+  h3 {
+    font-family: "Montserrat SemiBold";
+    font-size: 38px;
+    margin-bottom: 37px;
+  }
+  h5{
+      color: #898989;
+      font-size: 14px;
+      line-height: 17px;
+  }
+  
+  .navbar {
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+  }
+  
+  nav {
+    font-family: "Montserrat Bold" !important;
+  }
+  .text-20 {
+    font-family: "Montserrat Medium";
+    font-size: 20px;
+    line-height: 24px;
+  }
+  .text-22 {
+    font-family: "Montserrat SemiBold";
+    font-size: 22px;
+    line-height: 27px;
+  }
+  .text-32 {
+    font-family: "Montserrat SemiBold";
+    font-size: 32px;
+    line-height: 39px;
+  }
+  .text-38 {
+      font-family: "Montserrat SemiBold";
+      font-size: 38px;
+      line-height: 46px;
+      margin-bottom: 5px;
+    }
+  
+    #console p {
+      font-family: monospace;
+      font-weight: bold;
+      font-size: 18px;
+      margin: 0;
+      padding: 0;
+      line-height: 1;
+      color: #3ED1D3;
+      text-shadow: 0px 0px 10px #3ED1D3;
+    }
+}
