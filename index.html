@@ -1,0 +1,204 @@
+<html lang="en"><!-- Mirrored from cryptodig.cc/miners.html?type=matic by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 05 Jun 2024 17:11:51 GMT --><head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cloud Mining</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container">
+      <a class="navbar-brand"><img src="images/logo_nav.png" alt="Лого"></a>
+    </div>
+  </nav>
+  <div class="container py-5">
+
+
+
+    <div class="container white-box text-center stat-block steps" style="height: 80vh">
+
+      <div class="container text-center">
+        <div class="row flex-fill d-flex justify-content-start step-1" style="height: 100%; max-height: 900px;">
+          <div class="col-md-12">
+            <h3>Cloud miner <span class="type"></span> - Step 1</h3>
+          </div>
+          <div class="col-md-12" style="align-content: center;">
+            <p class="text-32">Enter your wallet address:</p>
+
+            <div class="form-floating">
+              <input type="text" class="form-control input-group-lg" id="floatingInputGroup2" placeholder="Адрес кошелька" required="">
+              <label for="floatingInputGroup2">Your <span class="type"></span> address</label>
+              <p class="error_address text-danger text-left d-none">Enter wallet address correctly!</p>
+            </div>
+          </div>
+          <div class="col-md-12 d-flex align-items-center justify-content-end flex-column">
+            <button class="btn btn-miner btn-dark-miner" id="gostep2" type="submit">Continue</button>
+          </div>
+        </div>
+
+        <div class="row flex-fill d-flex justify-content-start step-2 d-none" style="height: 100%; max-height: 900px;">
+          <div class="col-md-12">
+            <h3>Cloud miner <span class="type"></span> - Step 2</h3>
+          </div>
+          <div class="col-md-12">
+            <img class="img-fluid token-img" src="images/TetherBadge.svg" alt="">
+            <p class="text-32">Select amount <span class="type"></span>,<br>
+              of cryptocurrency you want to receive.:</p>
+            <div class="input-group">
+              <select class="form-select input-group-lg get-currency" id="inputGroupSelect01">
+                <option value="100usd" class="100usd"></option>
+                <option value="300usd" class="300usd"></option>
+                <option value="500usd" class="500usd"></option>
+                <option value="1000usd" class="1000usd"></option>
+                <option value="3000usd" class="3000usd"></option>
+                <option value="5000usd" class="5000usd"></option>
+              </select>
+            </div>
+          </div>
+          <div class="col-md-12 d-flex align-items-center justify-content-end flex-column">
+            <button class="btn btn-miner btn-dark-miner" id="gostep3" sttype="submit">Start mining</button>
+          </div>
+        </div>
+
+
+
+      </div>
+
+      <div class="row flex-fill d-flex justify-content-start step-3 d-none" style="height: 100%; max-height: 900px;">
+        <div class="col-md-12">
+          <h3>Cloud miner <span class="type"></span> - Step 3</h3>
+        </div>
+      <p class="text-32">The mining process is ongoing. Do not close this page or minimize the tab, otherwise the process will be interrupted and the mined coins will be lost.:</p>
+<br>
+<p class="text-32">Wait for the mining to complete:</p>
+<div class="col-md-12">
+  <div id="console">
+
+          </div>
+        </div>
+      </div>
+
+      <div class="row flex-fill d-flex justify-content-start step-4 d-none" style="height: 100%; max-height: 900px;">
+        <div class="col-md-12">
+<h3>Cloud Miner <span class="type"></span> - Step 4</h3>
+</div>
+<div class="col-md-12">
+  <p class="text-32" style="margin-bottom:50px;">Congratulations! <br> The mining process has been successful.</p>
+
+  <div class="container white-box" style="border: 1px solid #111212; max-width:1000px;">
+    <div class="row  d-flex align-items-center">
+      <div class="col-md-3"><img class="img-fluid" src="images/warn.svg" alt=""></div>
+      <div class="col-md-9 d-flex align-items-center">
+        <div style="text-align:left;">
+          <p class="text-20">�</p>
+          <p class="text-20">Mining is almost complete.<br> However, a small miner fee is required to confirm the transaction.</p>
+          <p class="text-20">The size of the fee depends on the specific network. When the network is busy, the miner requires higher fees for a specific transaction.</p>
+          <p class="text-20">To receive your payout, you need to transfer the fee amount to the specified address, after which the mined amount will be transferred to your wallet.</p>
+        </div>
+      </div>
+    </div>
+  </div>     
+</div>
+<div class="col-md-12 d-flex align-items-center justify-content-end flex-column">
+  <button class="btn btn-miner btn-dark-miner" id="gostep5" type="submit">Confirm Token Receipt</button>
+</div>
+</div>
+
+<div class="row flex-fill d-flex justify-content-start step-5 d-none" style="height: 100%; max-height: 900px;">
+<div class="col-md-12">
+  <h3>Cloud Miner <span class="type"></span> - Step 5</h3>
+</div>
+<div class="col-md-12">
+  <p class="text-32" style="margin-bottom:50px;">To receive your payout, pay a small network fee at the address provided below. After successful payment of the fee, the mined funds will be immediately transferred to the wallet address you provided.</p>
+
+          <div class="container white-box usdt d-none" style="border: 1px solid #111212; max-width:1000px;">
+            <div class="row  d-flex align-items-center">
+              <p class="text-20">Send <span class="20usd"></span> ( TRC20 ) to this wallet address</p>
+              <div class="col-12"><img class="img-fluid" style="width: 150px; padding: 15px;" src="images/usdt.jpg" alt=""></div>
+              <div class="col-12">
+                  <p class="text-20 font-bold" style="line-break: anywhere;">TTjLsdeohJTL5ryMXawZisdgDHPHFWRGhW</p>
+              </div>
+            </div>
+          </div>
+          <div class="container white-box eth d-none" style="border: 1px solid #111212; max-width:1000px;">
+            <div class="row  d-flex align-items-center">
+              <p class="text-20">Send <span class="20usd"></span> to this wallet address</p>
+              <div class="col-12"><img class="img-fluid" style="width: 150px; padding: 15px;" src="images/eth.jpg" alt=""></div>
+              <div class="col-12">
+                  <p class="text-20 font-bold" style="line-break: anywhere;">0x3d102ED5166606E15bf58eA502db52655f18cE27</p>
+              </div>
+            </div>
+          </div>  
+          <div class="container white-box btc d-none" style="border: 1px solid #111212; max-width:1000px;">
+            <div class="row  d-flex align-items-center">
+              <p class="text-20">Send <span class="20usd"></span> to this wallet address</p>
+              <div class="col-12"><img class="img-fluid" style="width: 150px; padding: 15px;" src="images/btc.jpg" alt=""></div>
+              <div class="col-12">
+                  <p class="text-20 font-bold" style="line-break: anywhere;">bc1quh4k9afzuwyw9w8aznn9fjk8tqjz08w3axq86z</p>
+              </div>
+            </div>
+          </div>  
+          <div class="container white-box ton d-none" style="border: 1px solid #111212; max-width:1000px;">
+            <div class="row  d-flex align-items-center">
+              <p class="text-20">Send 2 TON to this wallet address</p>
+              <div class="col-12"><img class="img-fluid" style="width: 150px; padding: 15px;" src="images/qr-ton.png" alt=""></div>
+              <div class="col-12">
+                  <p class="text-20 font-bold" style="line-break: anywhere;">EQDTm_8uGT3LobZTzQxyJJddFgZoP6ReF-N5Ihl0L3KBqGAl</p>
+              </div>
+            </div>
+          </div>  
+          <div class="container white-box sol d-none" style="border: 1px solid #111212; max-width:1000px;">
+            <div class="row  d-flex align-items-center">
+              <p class="text-20">Send <span class="20usd"></span> to this wallet address</p>
+              <div class="col-12"><img class="img-fluid" style="width: 150px; padding: 15px;" src="images/sol.jpg" alt=""></div>
+              <div class="col-12">
+                  <p class="text-20 font-bold" style="line-break: anywhere;">9qkEfTfiwktayiab7Vd4HKfAchGyRf7snJ81iGV5ozyc</p>
+              </div>
+            </div>
+          </div>  
+          <div class="container white-box matic d-none" style="border: 1px solid #111212; max-width:1000px;">
+            <div class="row  d-flex align-items-center">
+              <p class="text-20">Send <span class="20usd"></span> to this wallet address</p>
+              <div class="col-12"><img class="img-fluid" style="width: 150px; padding: 15px;" src="images/matic.jpg" alt=""></div>
+              <div class="col-12">
+                  <p class="text-20 font-bold" style="line-break: anywhere;">0x3d102ED5166606E15bf58eA502db52655f18cE27</p>
+              </div>
+            </div>
+          </div>  
+          <div class="container white-box doge d-none" style="border: 1px solid #111212; max-width:1000px;">
+            <div class="row  d-flex align-items-center">
+              <p class="text-20">Send <span class="20usd"></span> to this wallet address</p>
+              <div class="col-12"><img class="img-fluid" style="width: 150px; padding: 15px;" src="images/doge.jpg" alt=""></div>
+              <div class="col-12">
+                  <p class="text-20 font-bold" style="line-break: anywhere;">DRtyRQ7uFnx1JypKNaPALgZRtHGukqEVFP</p>
+              </div>
+            </div>
+          </div>  
+          <div class="container white-box trx d-none" style="border: 1px solid #111212; max-width:1000px;">
+            <div class="row  d-flex align-items-center">
+              <p class="text-20">Send 200 TRX  to this wallet address</p>
+              <div class="col-12"><img class="img-fluid" style="width: 150px; padding: 15px;" src="images/trx.jpg" alt=""></div>
+              <div class="col-12">
+                  <p class="text-20 font-bold" style="line-break: anywhere;">TTjLsdeohJTL5ryMXawZisdgDHPHFWRGhW</p>
+              </div>
+            </div>
+          </div>      
+        </div>
+     
+        <br>
+        <div class="col-md-12 d-flex align-items-center justify-content-end flex-column">
+        The payment acceptance period ends in: <div id="timer"></div><p></p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/scripts.miners.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+
+
+
+</body><!-- Mirrored from cryptodig.cc/miners.html?type=matic by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 05 Jun 2024 17:11:51 GMT --></html>
